@@ -7,6 +7,15 @@
  * @return { Number }
  */
 
+/**function greaterNumber(a, b){
+	if (a > b){
+		console.log(a + " is greater than " + b); 
+	}else{
+		console.log(b + " is greater than " + a);
+	}
+}
+
+greaterNumber(3, 5);
 
 /**
  * Create a function called 'stringOfNumbers'.
@@ -18,6 +27,16 @@
  * @return { String }
  */
 
+function stringOfNumbers(n){
+	var i =
+	var theString = ""
+	while (i <= n) {
+		theString.concat(" ", i);
+	    i++;
+	}
+}
+
+stringOfNumbers(6);
 
 /**
  * Create a function called 'sumOfArray'.
